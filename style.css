@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    border: 1px solid grey;
+}
+.container_teclas{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    border: 1px solid grey;
+}
+button{
+    margin: 1px;
+    width: 65px;
+}
